@@ -150,7 +150,7 @@ while($row = mysql_fetch_array($sql)){
             </thead>
 		 </table>
 		<div class="well">
-			  <h3>Notifications</h3><br>
+			  <!--<h3>Notifications</h3><br>
 			  <ul id="tab" class="nav nav-tabs">
 				<li class="active"><a href="#new" data-toggle="tab"><span class="label label-important">2 New</span>&nbsp;Items</a></li>
 				<li><a href="#discounted" data-toggle="tab">Discounted</a></li>
@@ -166,7 +166,7 @@ while($row = mysql_fetch_array($sql)){
 						</thead>
 							<?php 
 								// whole list of viewing the products stored on the database
-								$dynamicList = "";
+								/*$dynamicList = "";
 								$sql = mysql_query("SELECT * FROM product ORDER BY id DESC LIMIT 7");
 								$productCount = mysql_num_rows($sql); // count the output amount
 								if ($productCount > 0) {
@@ -182,7 +182,7 @@ while($row = mysql_fetch_array($sql)){
 									}
 								} else {
 									$dynamicList = "You have no products listed in your store yet";
-								}
+								}*/
 							?>			
 				   </table>	
 				   <p align="right"><a href="../catalog/index.php">More Items >></a></p>
@@ -204,9 +204,9 @@ while($row = mysql_fetch_array($sql)){
 				  <p>Dealer's Due Date</p>
 				</div>
 			  </div>
-			  <hr>
+			  <hr>-->
 			  <ul class="nav nav-list">
-                <h3>Trending Items</h3>
+                <h3>New Added Items</h3>
 					<?php 
 								$sql = mysql_query("SELECT * FROM product ORDER BY id DESC LIMIT 7");
 								$productCount = mysql_num_rows($sql); // count the output amount
