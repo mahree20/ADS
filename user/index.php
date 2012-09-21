@@ -496,7 +496,7 @@ while($row = mysql_fetch_array($sql)){
 					<a href="http://twitter.com">
 					<img alt="Twitter" height="64" src="../img/twitter-logo.png" width="64">
 					</a>
-					<a href="http://www.facebook.com">
+					<a href="https://www.facebook.com/pages/ADSell/142602325880399">
 					<img alt="Facebook" height="64" src="../img/fb.png" width="64">
 					</a>
 					<a href="http://www.plus.google.com">

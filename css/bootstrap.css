@@ -824,14 +824,12 @@ select:focus {
 }
 .input-medium {
   width: 150px;
-  height: 30px; /* i put something height pra modaku ang textfield in input-medium */
 }
 .input-large {
   width: 210px;
 }
 .input-xlarge {
   width: 270px;
-  height: 30px; /* i put something height pra modaku ang textfield input-xlarge hehe */
 }
 .input-xxlarge {
   width: 530px;

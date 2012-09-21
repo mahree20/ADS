@@ -279,6 +279,12 @@ if (isset($_POST['details'])) {
 						  <textarea class="input-xlarge" id="details" rows="3" name="details"></textarea>
 						</div>
 					  </div>
+					   <div class="control-group">
+						<label class="control-label" for="fileField">Image Input*: </label>
+						<div class="controls">
+						  <input class="input-file" type="file" />
+						</div>
+					  </div>
 					  <div class="control-group">
 						<label class="control-label">Price*:</label>
 						<div class="controls">
